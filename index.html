@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="title" content="MILK CHAT" />
+    <meta name="description" content="BaaSでリアルタイムチャット" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://cdn.mlkcca.com/v0.6.0/milkcocoa.js"></script>
+    <title>MILK CHAT</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="logo">MILK CHAT</h1>
+    </div>
+
+    <div class="container">
+        <div class="postarea cf">
+
+            <div class="postarea-text">
+                <textarea name="" id="content" cols="30" rows="10" placeholder="Enterで投稿"></textarea>
+            </div>
+
+            <button id="post" class="postarea-button">投稿する</button>
+        </div>
+    </div>
+
+    <div id="messages" class="content">
+        <div id="dummy"></div>
+    </div>
+    <script src="./chat.js" type="text/javascript"></script>
+</body>
+</html>
